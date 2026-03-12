@@ -9,6 +9,7 @@ SELECT
  f.quantity_sold as quantity,
  f.revenue,
  (f.revenue-f.purchase_cost) as margin,
+ f.purchase_cost,
  f.shipping_fee,
  f.logcost as log_cost,
  f.ship_cost
